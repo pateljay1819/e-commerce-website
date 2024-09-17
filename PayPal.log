@@ -1,0 +1,73 @@
+[17-09-2024 08:58:12] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 08:58:14] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[17-09-2024 08:58:14] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/v1/#error-VALIDATION_ERROR","debug_id":"3282f2d553a0d"}
+[17-09-2024 08:58:18] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 08:58:19] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[17-09-2024 08:58:19] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/v1/#error-VALIDATION_ERROR","debug_id":"4341ef156c7f6"}
+[17-09-2024 08:58:27] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 08:58:29] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[17-09-2024 08:58:29] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/v1/#error-VALIDATION_ERROR","debug_id":"bd2aaac5bd8c3"}
+[17-09-2024 09:00:28] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 09:00:31] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[17-09-2024 09:00:31] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/v1/#error-VALIDATION_ERROR","debug_id":"4e840298eea66"}
+[17-09-2024 09:00:44] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 09:00:46] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[17-09-2024 09:00:46] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0]","issue":"Item amount must add up to specified amount subtotal (or total if amount details not specified)"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/v1/#error-VALIDATION_ERROR","debug_id":"a676602bfc2e2"}
+[17-09-2024 09:02:42] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 09:02:44] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 09:04:27] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 09:04:29] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 09:05:38] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 09:05:40] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 09:07:00] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 09:07:03] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 18:51:04] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[17-09-2024 18:51:06] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 18:51:06] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 18:51:08] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 18:51:53] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3G6A08756795088659123
+[17-09-2024 18:51:55] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 18:51:55] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3G6A08756795088659123/execute
+[17-09-2024 18:51:58] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:00:27] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 19:00:29] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 19:01:19] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3LKQ1EE60257U9616562N
+[17-09-2024 19:01:20] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:01:20] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3LKQ1EE60257U9616562N/execute
+[17-09-2024 19:01:23] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:04:38] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 19:04:40] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 19:04:46] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3NJA4AH92158T9686780Y
+[17-09-2024 19:04:48] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:04:48] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3NJA4AH92158T9686780Y/execute
+[17-09-2024 19:04:50] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:16:14] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 19:16:16] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 19:16:23] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3SXA6PK82392PC948742X
+[17-09-2024 19:16:25] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:16:25] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3SXA6PK82392PC948742X/execute
+[17-09-2024 19:16:27] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:24:53] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 19:24:56] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 19:25:02] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3WZI0BF95711DC679040U
+[17-09-2024 19:25:04] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:25:04] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3WZI0BF95711DC679040U/execute
+[17-09-2024 19:25:07] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:29:33] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 19:29:35] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 19:29:41] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3Y7A03L64472LH364753A
+[17-09-2024 19:29:43] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:29:43] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U3Y7A03L64472LH364753A/execute
+[17-09-2024 19:29:45] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:38:34] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 19:38:36] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 19:38:47] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U35GI0V98585347214581A
+[17-09-2024 19:38:49] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:38:49] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U35GI0V98585347214581A/execute
+[17-09-2024 19:38:51] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:39:43] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[17-09-2024 19:39:44] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[17-09-2024 19:39:50] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U35XI5N835140DE6495605
+[17-09-2024 19:39:53] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[17-09-2024 19:39:53] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment/PAYID-M3U35XI5N835140DE6495605/execute
+[17-09-2024 19:39:55] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200

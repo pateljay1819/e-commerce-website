@@ -18,6 +18,7 @@ if (isset($_SESSION["uid"])) {
     $total_count=$_POST['total_count'];
     $prod_total = $_POST['total_price'];
     
+    
     $sql0="SELECT order_id from `orders_info`";
     $runquery=mysqli_query($con,$sql0);
     if (mysqli_num_rows($runquery) == 0) {
@@ -37,7 +38,6 @@ if (isset($_SESSION["uid"])) {
 	`city`, `state`, `zip`, `cardname`,`cardnumber`,`expdate`,`prod_count`,`total_amt`,`cvv`) 
 	VALUES ($order_id, '$user_id','$f_name','$email', 
     '$address', '$city', '$state', '$zip','$cardname','$cardnumberstr','$expdate','$total_count','$prod_total','$cvv')";
-    $_SESSION["last_order_id"] = $order_id;
 
 
     if(mysqli_query($con,$sql)){
@@ -58,19 +58,9 @@ if (isset($_SESSION["uid"])) {
             (`order_pro_id`,`order_id`,`product_id`,`qty`,`amt`) 
             VALUES (NULL, '$order_id','$prod_id','$prod_qty','$sub_total')";
             if(mysqli_query($con,$sql1)){
-
-               
-                $sql_order = "INSERT INTO orders (user_id,product_id,qty,trx_id,p_status) VALUES ('$user_id','".$prod_id."','".$prod_qty."','11','Completed')";
-                mysqli_query($con,$sql_order);
-                
-    
-
                 $del_sql="DELETE from cart where user_id=$user_id";
                 if(mysqli_query($con,$del_sql)){
-                    
-                    echo"<script>window.location.href='paypal/create_payment.php'</script>";
-                    // echo"<script>window.location.href='store.php'</script>";
-                    
+                    echo"<script>window.location.href='store.php'</script>";
                 }else{
                     echo(mysqli_error($con));
                 }

@@ -6,20 +6,21 @@ if(!isset($_SESSION["uid"])){
 }
 
 if (isset($_GET["st"])) {
-
+	
 	# code...
 	$trx_id = $_GET["tx"];
 		$p_st = $_GET["st"];
 		$amt = $_GET["amt"];
 		$cc = $_GET["cc"];
 		$cm_user_id = $_GET["cm"];
-		$c_amt = $_COOKIE["ta"];
+		// $c_amt = $_COOKIE["ta"];
 	if ($p_st == "Completed") {
 
 		
 
 		include_once("db.php");
-		$sql = "SELECT p_id,qty FROM cart WHERE user_id = '$cm_user_id'";
+		echo $sql = "SELECT p_id,qty FROM cart WHERE user_id = '$cm_user_id'";
+		exit;
 		$query = mysqli_query($con,$sql);
 		if (mysqli_num_rows($query) > 0) {
 			# code...
